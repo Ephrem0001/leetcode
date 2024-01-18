@@ -8,7 +8,5 @@ class Solution(object):
         separator = ""
         result1 = separator.join(word1)
         result2 = separator.join(word2)
-        if result1==result2:
-            return True
-        else:
-            return False
+        return result1==result2
+
