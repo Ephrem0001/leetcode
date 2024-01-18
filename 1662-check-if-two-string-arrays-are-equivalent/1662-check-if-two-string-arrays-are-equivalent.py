@@ -8,4 +8,3 @@ class Solution(object):
         result1 = "".join(word1)
         result2 = "".join(word2)
         return result1==result2
-
