@@ -5,8 +5,7 @@ class Solution(object):
         :type word2: List[str]
         :rtype: bool
         """
-        separator = ""
-        result1 = separator.join(word1)
-        result2 = separator.join(word2)
+        result1 = "".join(word1)
+        result2 = "".join(word2)
         return result1==result2
 
